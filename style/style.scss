@@ -1,0 +1,71 @@
+$azul: #012437;
+$laranja: #F95D01;
+
+
+.offcanvas {
+    .offcanvas-header {
+        padding: 10px;
+        .offcanvas-title{
+            font-weight: 600;
+        }
+    }
+    .offcanvas-body {
+        padding: 0;
+    }
+}
+
+.nav-link {
+    color: #012437;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#departamento {
+    color: #012437;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.accordion-button {
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+a {
+    color: $azul;
+    text-decoration: none;
+    &:hover {
+        color: $laranja;
+    }
+}
+
+.nav-link:hover {
+    color: #F95D01;
+}
+
+.accordion-second-layer {
+    padding: 0px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: $azul;
+    background-color: white;
+    border-radius: none;
+}
+
+.subcategoria {
+    padding-bottom: 1em;
+    font-weight: 600;
+}
+
+.accordion-button:not(.collapsed)::after {
+    transform: none;
+}
+
+.btn-primary {
+    --bs-btn-bg: white;
+    --bs-btn-border-color: white;
+    --bs-btn-hover-bg: white;
+    --bs-btn-hover-border-color: $laranja;
+}

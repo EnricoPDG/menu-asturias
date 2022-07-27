@@ -1,0 +1,67 @@
+.offcanvas .offcanvas-header {
+  padding: 10px !important ;
+}
+.offcanvas .offcanvas-header .offcanvas-title {
+  font-weight: 600 !important ;
+}
+.offcanvas .offcanvas-body {
+  padding: 0 !important ;
+}
+
+.nav-link {
+  color: #012437 !important ;
+  font-size: 18px !important ;
+  font-weight: 600 !important ;
+}
+
+#departamento {
+  color: #012437 !important ;
+  font-size: 18px !important ;
+  font-weight: 600 !important ;
+}
+
+.accordion-button {
+  font-weight: bold !important ;
+  font-size: 16px !important ;
+  padding-left: 15px !important ;
+}
+
+a {
+  color: #012437 !important ;
+  text-decoration: none !important ;
+}
+a:hover {
+  color: #F95D01 !important ;
+}
+
+.nav-link:hover {
+  color: #F95D01 !important ;
+}
+
+.accordion-second-layer {
+  padding: 0px !important ;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #012437 !important ;
+  background-color: white !important ;
+  border-radius: none !important ;
+}
+
+.subcategoria {
+  padding-bottom: 1em !important ;
+  font-weight: 600 !important ;
+}
+
+.accordion-button:not(.collapsed)::after {
+  transform: none !important ;
+}
+
+.btn-primary {
+  --bs-btn-bg: white !important ;
+  --bs-btn-border-color: white !important ;
+  --bs-btn-hover-bg: white !important ;
+  --bs-btn-hover-border-color: $laranja !important ;
+}
+
+/*# sourceMappingURL=style.css.map */
