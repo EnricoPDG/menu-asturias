@@ -1,2 +1,2 @@
 # menu-asturias
-Prótipo menu Astúrias
+protótipo menu Astúrias
